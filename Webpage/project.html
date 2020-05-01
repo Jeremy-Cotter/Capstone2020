@@ -1,0 +1,84 @@
+<html>
+<head>
+<meta charset="utf-8"/>
+
+<title> Trip Planner! </title>
+</head>
+<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+</style>
+<body> 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<h3 class="text-center">
+				Trip Planner!
+			</h3>
+			<p>
+			Welcome to my Trip Planner! Enter when and where you are leaving and when and where you are going, to find out great information about your destination! This can be used to help plan an upcoming trip, whether that be across the country, or the next town over!
+			</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+	
+			<form action="http://capstoneproject.us-e2.cloudhub.io/capstone" method="post">
+ 
+  <label for="FromDate"><b> Starting Date</b> </label><br>
+  <input type="date" id="FromDate" name="FromDate">
+  <br>
+  <label for="FromAddress"><b> Starting Address </b> </label>
+  <br>
+  <input type="text" id="FromAddress" name="FromAddress">
+  <br>
+  <label for="FromCity"><b> Starting City </b> </label>
+  <br>
+  <input type="text" id="FromCity" name="FromCity">
+  <br>
+  <label for="FromState"><b> Starting State </b> </label>
+  <br>
+  <input type="text" id="FromState" name="FromState">
+  <br>
+  <label for="FromZIP"><b> Starting ZIP </b> </label>
+  <br>
+  <input type="text" id="FromZIP" name="FromZIP">
+  
+  </div>
+  </div> 
+  <div class="row">
+		<div class="col-md-12">
+   <label for="TripDate"><b> Return Date </b> </label><br>
+  <input type="date" id="TripDate" name="TripDate">
+  <br>
+  <label for="TripAddress"><b> Destination Address </b> </label>
+  <br>
+  <input type="text" id="TripAddress" name="TripAddress">
+  <br>
+  <label for="TripCity"><b> Destination City </b> </label>
+  <br>
+  <input type="text" id="TripCity" name="TripCity">
+  <br>
+  <label for="TripState"><b> Destination State </b> </label>
+  <br>
+  <input type="text" id="TripState" name="TripState">
+  <br>
+  <label for="TripZIP"><b> Destination ZIP </b> </label>
+  <br>
+  <input type="text" id="TripZIP" name="TripZIP">
+  <br>
+  <br>
+
+
+  <input type="submit" value="Go!">
+		
+	</div>
+</div>
+</div> 
+</body>
+</html>
